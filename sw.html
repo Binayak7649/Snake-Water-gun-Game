@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sw.css">
+</head>
+<body>
+    <div class="container">
+
+        <p class="your-score">You: <span >0</span></p> 
+     
+        <p class="computer-score">Computer: <span >0</span></p>
+     
+        <div class="options">
+     
+          <div class="snake" onclick="getUserChoice('snake')">
+     
+             <h1>🐍</h1>     
+     
+          </div>  
+     
+          <div class="water" onclick="getUserChoice('water') ">
+     
+             <h1>💧</h1>
+     
+          </div>     
+     
+          <div class="gun" onclick="getUserChoice('gun')">
+     
+             <h1>🔫</h1>
+     
+          </div>
+     
+        </div>
+     
+        <div class="choices">
+     
+          <p class="your-choice">You choose : <span >snake</span></p>    
+     
+          <p class="computer-choice">Computer choose : <span >water</span></p>     
+     
+        </div>
+     
+        <div class="result">
+     
+          <span>You Win!</span>      
+     
+        </div>
+     
+     </div>
+    
+    <script src="sw.js"></script>
+</body>
+</html>

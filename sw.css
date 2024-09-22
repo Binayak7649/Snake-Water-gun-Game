@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+.container {
+    height: 400px;
+    width: 500px;
+    padding: 30px;
+    margin-top: 200px;
+    margin-left: 450px;
+    background-color: aliceblue;
+}
+
+.your-score {
+    text-align: right;
+    font-size: 30px;
+}
+
+.computer-score {
+    text-align: right;
+    font-size: 30px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+.snake {
+    height: 80px;
+    width: 80px;
+    background-color: aquamarine;
+    border-radius: 100%;
+    border: 2px solid black;
+    cursor: pointer;
+    margin-right: 36px;
+    font-size: 30px;
+}
+
+.water {
+    height: 80px;
+    width: 80px;
+    background-color: aquamarine;
+    border-radius: 100%;
+    border: 2px solid black;
+    cursor: pointer;
+    margin-right: 30px;
+    font-size: 30px;
+
+}
+
+.gun {
+    height: 80px;
+    width: 80px;
+    background-color: aquamarine;
+    border-radius: 100%;
+    border: 2px solid black;
+    cursor: pointer;
+    margin-right: 30px;
+    font-size: 30px;
+
+}
+
+.choices {
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.your-choice {
+    font-size: 30px;
+}
+
+.computer-choice {
+    font-size: 30px;
+
+}
+
+.result {
+    height: 90px;
+    width: 130px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 35px;
+    margin-left: 180px;
+    border-radius: 10px;
+
+}
